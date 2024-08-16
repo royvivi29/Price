@@ -119,7 +119,7 @@ header.dark-mode {
   }
   .toggle-button {
     position: absolute;
-    left: 15px; /* Positions the toggle button on the left side */
+    left: 15px;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -167,7 +167,6 @@ header.dark-mode {
     border: 1px solid #334155;
     font-family: Arial, sans-serif;
     max-width: 1000px;
-    /* margin: 0 auto; Center horizontally */
     margin: 20px auto 0;
     display: block;
     padding: 4rem;
@@ -224,7 +223,6 @@ header.dark-mode {
     border: 1px solid #334155;
     font-family: Arial, sans-serif;
     max-width: 1000px;
-    /* margin: 0 auto; */
     margin: 30px auto 0;
     display: block;
     padding: 4rem;
@@ -832,18 +830,18 @@ header.dark-mode {
 
   @media (max-width: 768px) {
     #endpoints, #tutorial, #code-examples, #pricing {
-        margin: 30px 15px 0; /* Adds margin on the left and right */
+        margin: 30px 15px 0; 
     }
 }
 
 @media (max-width: 576px) {
     #pricing, #tutorial, #code-examples {
-        margin: 30px 10px 0; /* Further adjust margin for even smaller screens */
+        margin: 30px 10px 0; 
     }
 }
 
 @media (max-width: 400px) {
     #pricing, #tutorial, #code-examples {
-        margin: 30px 8px 0; /* Final adjustment for the smallest screens */
+        margin: 30px 8px 0; 
     }
 }
